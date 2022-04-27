@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+</head>
+<body>
+    <h1>My Blog</h1>
+    <header>
+        <ul>
+            <a href="#">HOME</a>
+            <a href="#">SOBRE</a>
+            <a href="#">CONTATO</a>
+        </ul>
+    </header>
+
+    <article>
+        <h1>HTML: Como obter imagens aleatórias em sua página da web usando unsplash.com na tag <code>&lt;img&gt;</code> </h1>
+        <img src="https://source.unsplash.com/random/400x400" alt="">
+
+        <p>
+            <q cite="http://bluegalaxy.info/codewalk/2018/02/14/html-get-random-stock-images-web-page-using-unsplash-com/">O site https://unsplash.com fornece um serviço gratuito que permite aos desenvolvedores da Web usar imagens aleatórias</q>
+        </p>
+
+        <p>Através de "url's" são inseridas na tag "img"da seguinte forma: <pre>&lt;img src="https://source.unsplash.com/random" alt=""&gt;</pre> as imagens serão trocadas aleatoriamente a cada carregamento ou atualização da página no novagador, <b>podendo sofrer variações de altura e largura</b>.</p>
+        <p>Para definir um tamanho fixo para as imagens que irão aparecer no sessão escolhida, é preciso inserir os valores de tamanho ao final da url, por exemplo:  "/400x400", isso produzirá uma imagem aleatória de 400 por 400 pixels:, o código ficaria dessa forma no html:<pre>&lt;img src="https://source.unsplash.com/random/400x400" alt=""&gt;</pre> Igual a imagem mostrada junto ao título desse post.</p>
+        <p>O valores do tamanho de altura e largura podem variar de acordo com o seu projeto, como por exemplo no trecho de código abaixo.<pre>&lt;img src="https://source.unsplash.com/random/580x650" alt=""&gt;</pre></p>
+        <hr>
+        <aside>
+            <p><b>Data: </b>27/04/2022</p><br>
+            <img src="https://source.unsplash.com/random/200x200" alt="">
+            <p>
+                <b>por: </b>Paulo Marques
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, at.</p>
+            </p>
+        </aside>
+    </article>
+    
+</body>
+</html>
