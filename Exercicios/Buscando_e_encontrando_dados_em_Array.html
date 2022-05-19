@@ -45,9 +45,17 @@
             },
         ];
 
-        //console.log(booksByCategory.length)
-       // console.log(booksByCategory[0].books.length)
-        console.log(booksByCategory[0].books)
+        console.log("Existem " + booksByCategory.length + " Categorias de Livros, a categoria: " + booksByCategory[0].category + ", que contém " + booksByCategory[0].books.length + " livros, e a cetegoria: " + booksByCategory[1].category + ", que contém " + booksByCategory[0].books.length + " livros");
+
+        for(let category of booksByCategory){
+            console.log(category.category)
+        }
+
+        function countAuthors(){
+            
+        }
+        
+        //console.log(booksByCategory[0].books.length)
         //console.log(booksByCategory[1].books.length)
         //console.log(booksByCategory[1].books.title)
 
